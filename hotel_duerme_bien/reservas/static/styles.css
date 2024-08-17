@@ -1,0 +1,222 @@
+              @font-face {
+                  font-family: 'The Seasons';
+                  src: url(/fonts/Fontspring-DEMO-theseasons-lt.otf);
+              }
+              h3 {
+                  font-size: 34px;
+                  font-family: 'The Seasons';
+                  color: rgb(255, 255, 255);
+              }
+              h1 {
+                  font-family: 'The Seasons';
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  position: absolute;
+                  letter-spacing: 10px;
+                  white-space: nowrap; 
+                  font-weight: 700;
+                  font-weight: bold;
+                  color: rgb(255, 255, 255); 
+                  -webkit-text-stroke: 1px rgb(255, 255, 255); 
+                  z-index: 2;
+              }
+              .sobrenosotros-titulo {
+                  font-family: 'The Seasons';
+                  font-size: 60px;
+                  color:#ffe3e3;
+                  position: absolute;
+                  left: 49%;
+                  top: 114%;
+              }
+              .conctact-titulo {
+                  font-family: 'The Seasons';
+                  font-size: 60px;
+                  color:#ffe3e3;
+              }
+              .galeria {
+                  width: 167vh;
+                  height: auto;
+              }
+              .galery-titulo {
+                  font-family: 'The Seasons';
+                  font-size: 60px;
+                  color:#ffe3e3;
+                  position: absolute;
+                  top: 214%;
+              }
+              .sobrenosotros-texto {
+                  font-family: 'The Seasons';
+                  position: absolute;
+                  color: #6a0e31;
+                  left: 49%;
+                  top: 129%;
+                  font-size: 23px;
+                  padding-right: 80px;
+              }
+              .p1 {
+                  font-family: 'Montserrat';
+                  top: 33%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  position: absolute;
+                  letter-spacing: 10px;
+                  color: rgb(255, 255, 255); 
+                  -webkit-text-stroke: 0.5px rgb(255, 255, 255); 
+                  z-index: 2;
+                  font-size: 14px;
+              }
+              .p2 {
+                  font-family: 'Montserrat';
+                  top: 65%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  position: absolute;
+                  letter-spacing: 10px;
+                  color: rgb(255, 255, 255); 
+                  -webkit-text-stroke: 0.5px rgb(255, 255, 255); 
+                  z-index: 2;
+                  font-size: 14px;
+              }
+              .carousel {
+                  height: 100vh;
+              }
+              .carousel img {
+                  object-fit: cover;
+                  height: 100vh;
+              }
+              .about {
+                  height: 100vh;
+                  background-color: #D48793;
+              }
+              .gallery {
+                  height: 100vh;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+                  background-color: #291618;
+              }
+              .contact {
+                  height: 100vh;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+                  position: relative;
+              }
+              .contact img {
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                  z-index: -1;
+              }
+              footer {
+                  height: 30vh;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+                  color: white;
+                  background-color: #121210;
+              }
+              .social-icons {
+                  margin-bottom: 10px;
+              }
+              .text-footer {
+                  font-family: 'The Seasons';
+                  position: relative;
+                  left: 23%;
+              }
+              .p-footer1 {
+                  font-family: 'Montserrat';    
+                  letter-spacing: 10px;
+                  font-size: 14px;
+                  position: relative;
+                  left: 35%;
+                  font-weight: 800;
+              }
+              .p-footer2 {
+                  font-family: 'Montserrat';    
+                  letter-spacing: 10px;
+                  font-size: 14px;
+                  position: relative;
+                  left: 2%;
+              }
+              .form {
+                  display: flex;
+                  flex-direction: column;
+                  gap: 10px;
+                  max-width: 350px;
+                  background-color: #ffe3e3;
+                  padding: 20px;
+                  border-radius: 20px;
+                  position: relative;
+              }
+              .flex {
+                  display: flex;
+                  width: 100%;
+                  gap: 6px;
+              }
+              .form label {
+                  position: relative;
+              }
+              .form label .input {
+                  width: 100%;
+                  padding: 10px 10px 20px 10px;
+                  outline: 0;
+                  border: 1px solid rgba(105, 105, 105, 0.397);
+                  border-radius: 10px;
+              }
+              .form label .input + span {
+                  position: absolute;
+                  left: 10px;
+                  top: 15px;
+                  color: grey;
+                  font-size: 0.9em;
+                  cursor: text;
+                  transition: 0.3s ease;
+              }
+              .form label .input:placeholder-shown + span {
+                  top: 15px;
+                  font-size: 0.9em;
+              }
+              .form label .input:focus + span, .form label .input:valid + span {
+                  top: 30px;
+                  font-size: 0.7em;
+                  font-weight: 600;
+              }
+              .form label .input:valid + span {
+                  color: rgb(203, 112, 156);
+              }
+              .submit {
+                  border: none;
+                  outline: none;
+                  background-color: rgb(117, 70, 73);
+                  padding: 10px;
+                  border-radius: 10px;
+                  color: #fff;
+                  font-size: 16px;
+                  transform: .3s ease;
+              }
+              .submit:hover {
+                  background-color: rgb(171, 106, 120);
+              }
+              @keyframes pulse {
+                  from {
+                      transform: scale(0.9);
+                      opacity: 1;
+                  }
+                  to {
+                      transform: scale(1.8);
+                      opacity: 0;
+                  }
+              }
+              .about-img {
+                width: 66vh;
+                margin-top: 2.6%;
+                margin-left: 10%
+              }
